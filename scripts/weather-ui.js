@@ -23,6 +23,7 @@ async function handleWeatherForm(event) {
       resultSection.innerHTML = `
         <strong>${res.cidade}</strong><br>
         Temperatura: <span aria-label="Temperatura em Celsius">${res.temperatura_celsius}°C</span><br>
+        Velocidade do vento: <span aria-label="Velocidade do vento em km/h">${res.velocidade_vento} km/h</span><br>
         Condição: <span>${res.descricao}</span>
       `;
     }

@@ -18,7 +18,7 @@ async function buscarClima(cidade) {
     if (!climaResp.ok) throw new Error("Erro ao acessar a API de clima.");
     const climaData = await climaResp.json();
 
-    const { temperature, weathercode } = climaData.current_weather;
+    const { temperature, weathercode, windspeed } = climaData.current_weather;
 
     // Descrição simples baseada no código do tempo
     const descricoes = {
@@ -39,6 +39,7 @@ async function buscarClima(cidade) {
     return {
       cidade: name,
       temperatura_celsius: temperature,
+      velocidade_vento: windspeed,
       descricao: descricoes[weathercode] || "Condição desconhecida"
     };
 

@@ -68,12 +68,13 @@ A utilização de IA neste projeto permitiu:
 - (Opcional) Node.js e npm para rodar os testes automatizados
 
 ### Passo a Passo
+
 1. **Clone ou baixe o projeto:**
    - Via git:
      ```bash
      git clone https://github.com/Caiqe/ProjetoIA-Previs-oDoTempo.git
      ```
-   - Ou baixe o ZIP e extraia em uma pasta.
+   - Ou baixe o ZIP diretamente do repositório e extraia em uma pasta de sua preferência.
 
 2. **Acesse a pasta do projeto:**
    ```bash
