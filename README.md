@@ -71,7 +71,7 @@ A utilização de IA neste projeto permitiu:
 1. **Clone ou baixe o projeto:**
    - Via git:
      ```bash
-     git clone <URL_DO_REPOSITORIO>
+     git clone https://github.com/Caiqe/ProjetoIA-Previs-oDoTempo.git
      ```
    - Ou baixe o ZIP e extraia em uma pasta.
 
