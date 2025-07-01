@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Previsão do Tempo</title>
+  <link rel="stylesheet" href="style/weather.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Previsão do Tempo</h1>
+    <form id="weather-form" aria-label="Formulário de busca de clima">
+      <label for="city-input">Digite o nome da cidade:</label>
+      <input type="text" id="city-input" name="city" placeholder="Ex: São Paulo" required aria-required="true" autocomplete="off" />
+      <button type="submit">Buscar</button>
+    </form>
+    <section id="weather-result" aria-live="polite" tabindex="-1"></section>
+  </main>
+  <script src="scripts/app2.js"></script>
+  <script src="scripts/weather-ui.js"></script>
+</body>
+</html>
